@@ -1,0 +1,20 @@
+{
+  "mongoDb": {
+    "name": "mongoDb",
+    "connector": "mongodb"
+  },
+  "sparkpost": {
+    "name": "sparkpost",
+    "connector": "loopback-connector-sparkpost"
+  },
+  "fileStorageDS": {
+    "name": "fileStorageDS",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem"
+  },
+  "fileStorageVideo": {
+    "name": "fileStorageVideo",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem"
+  }
+}
